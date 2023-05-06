@@ -1,0 +1,663 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 100px;
+   margin-right: 100px;
+    /* margin-top: 20px; */
+    background-color: #141611;
+    /* position: fixed; */
+} 
+
+    
+ 
+   
+
+   
+
+
+
+
+.search-box{
+    display: flex;
+    margin-left: 0px;
+
+}
+
+.btn{
+    background-color:blue;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.text{
+
+    width: 400px;
+}
+
+/* .input-group-btn {
+    
+} */
+
+nav ul { 
+    display: flex;
+   gap: 30px;
+   font-weight: 700;
+   align-items: center;
+   margin-right: 20px;
+   list-style: none;
+
+
+}
+
+.whatsup{
+  color: #25D366;
+}
+
+/* .logo :first-child{
+    gap: 30px; 
+    /*imp term*/
+     /* margin-right: 700px; */
+/* }  */
+
+
+.img1{
+    margin-bottom: 300px  ;
+
+}
+
+  /* slide image  */
+  /* .maindiv{
+    height: 300px;
+    width: 1700px;
+    margin-top: 5.9%;
+    margin-left: 0%;
+    position:absolute;
+    background-position: center;
+    background-size: cover;
+   background-image: url();
+  background-repeat: no-repeat;
+  display: block;
+  box-shadow: 1px 2px 10px 5px rgb(22, 105, 213);
+  animation: slider 00s infinite linear;
+
+  }
+  @keyframes slider {
+    0%{
+      background-image: url();
+      
+    }
+
+    35%{
+       background-image: url(https://drive.google.com/file/d/12dugGfFruZHhsTxMcZ7U6O75ptK14NeU/view?usp=share_link);
+       
+
+    }
+
+    70%{
+    background-image: url();
+    
+
+
+    }
+  } */
+
+/* <!--collection-books --> */
+  .newspaper-heading{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 50px;
+  }
+  /* .download button {
+    border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+  } */
+  /* .downolad button:hover{
+    opacity: 0.7;
+  } */
+
+  .newspaper-4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+    .newspaper-4 button :hover{
+      opacity: 0.7;
+    }
+  
+  .newspaper-1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .newspaper-1 button :hover{
+    opacity: 0.7;
+  }
+
+  .newspaper-2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .newspaper-2 button :hover{
+    opacity: 0.7;
+  }
+
+  .newspaper-3 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .newspaper-3 button :hover{
+    opacity: 0.7;
+  }
+
+
+
+  .newspaper-collection{
+    display: flex;
+    gap: 7%;
+    margin-top: 5%;
+    
+   
+  }
+
+  .newspaper-1 img{
+    margin-bottom: 50%;
+    margin-left: 15%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .newspaper-2 img{
+    margin-bottom: 30%;
+    margin-left: 0%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .newspaper-3 img{
+    margin-bottom: 30%;
+    margin-left: 0%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+   .newspaper-4 img{
+    margin-bottom: 30%;
+    margin-left: 0%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .action-1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .action-1 button :hover{
+    opacity: 0.7;
+  }
+
+  .action-2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .action-2 button :hover{
+    opacity: 0.7;
+  }
+
+  .action-3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .action-3 button :hover{
+    opacity: 0.7;
+  }
+
+  .action-4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .action-4 button :hover{
+    opacity: 0.7;
+  }
+
+  .action-advanture-collection{
+    display: flex;
+    gap: 0%;
+  }
+
+  .action-1 img{
+    margin-top: 5%;
+    margin-left: 15%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .action-2 img{
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .action-3 img {
+    margin-top: 5%;
+    margin-left:2%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .action-4 img {
+    margin-top: 5%;
+    margin-left: 4%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .history-and-biopics{
+    display: flex;
+    gap: 0%;
+  } 
+
+  .history-1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+    .history-1 button :hover{
+      opacity: 0.7;
+    }
+
+    .history-2 button{
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+      .history-2 button :hover{
+        opacity: 0.7;
+      }
+
+      .history-3 button{
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+        .history-3 button :hover{
+          opacity: 0.7;
+        }
+
+        .history-4 button{
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+          .history-4  button :hover{
+            opacity: 0.7;
+          }
+
+
+
+  .history-1 img{
+    margin-top: 3%;
+    margin-left: 15%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .history-2 img{
+    margin-top: 3%;
+    margin-left: 12%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .history-3 img{
+    margin-top: 3%;
+    margin-left: 9%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .history-4 img {
+    margin-top: 3%;
+    margin-left: 6%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  /* spritual-books */
+ 
+  .Spiritual-Books{
+    display: flex;
+    gap: 0%;
+  }
+
+  .Spiritual-1 img{
+    margin-top: 3%;
+    margin-left: 15%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .Spiritual-2 img{
+    margin-top: 3%;
+    margin-left: 7%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .Spiritual-3 img {
+    margin-top: 3%;
+    margin-left:8%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .Spiritual-4 img {
+    margin-top: 3%;
+    margin-left: 3%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .Spiritual-1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .Spiritual-1  button :hover{
+      opacity: 0.7;
+    }
+
+    .Spiritual-2 button{
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    .Spiritual-2  button :hover{
+        opacity: 0.7;
+      }
+
+      .Spiritual-3 button{
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      .Spiritual-3  button :hover{
+          opacity: 0.7;
+        }
+
+
+        .Spiritual-4 button{
+          border: none;
+          outline: 0;
+          padding: 12px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+          font-size: 18px;
+        }
+        .Spiritual-4  button :hover{
+            opacity: 0.7;
+          }
+
+    
+  
+
+ 
+  
+
+ 
+
+
+
+  /* footer1
+  .footer1{
+
+    display: flex;
+    
+    gap: 500px;
+    margin: 40px;
+    background-color: #c11fab;
+    width: 100%px;
+    
+    height: 10%;
+  }
+
+  .follow-social-media{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+
+  .follow-on-social-media {
+
+    color: chartreuse;
+  }
+
+  .twitter{
+    color: #1DA1F2
+    ;
+  }
+  .linkedin{
+    color: rgb(10, 102, 194);
+  }
+
+  .instagram{
+    color: #C13584
+    ;
+  }
+
+  .telegram{
+    color: #0088cc;
+  }
+
+  .left-side{
+    display: flex;
+    gap: 20px;
+  }
+  .detail-text{
+    text-align: center;
+  }
+  .phone a i{
+    list-style: none;
+    color: white;
+    /* display: block; */
+
+  /* }
+  .phone{
+    color: white;
+
+  } */ 
+
+  /* footer */
+
+
+.footer{
+  margin-top:400px;
+  width: 100%;
+  
+  padding-left: 180px  ; 
+  background:#333;
+  color: #efefef;
+  display: flex;
+  gap: 70%; 
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:10px ;
+}
+
+.col-2 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:10px ;
+}
+
+.footer-2{
+  background-color: #333;
+     padding: 100px;
+    padding-left: 600px;
+  
+}
+
+

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript , books , library , how to fluent english ">
+    <title>Library</title>
+    <!-- link external sheet -->
+    <link rel="stylesheet" href="./style/style1.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+<style>
+  .products-heading{
+    text-align: center;
+    font-family: arial;
+    font-size:100px;
+    margin-bottom: 300px;
+  }
+    /* slide image  */
+
+    .maindiv{
+    height: 300px;
+    width: 1700px;
+    margin-top: 6%;
+    margin-left: 0%;
+    position:absolute;
+    background-position: center;
+    background-size: cover;
+   background-image: url(./asstes/1.png);
+   animation-delay: 10s;
+  background-repeat: no-repeat;
+  display: block;
+  box-shadow: 1px 2px 10px 5px rgb(22, 105, 213);
+  animation: slider 09s infinite linear ;
+  animation-delay: 10s;
+
+
+  }
+  @keyframes slider {
+    0%{
+      background-image: url(./asstes/1.png);
+
+    }
+
+    55%{
+       background-image: url(./asstes/2.png);
+       
+
+    }
+
+      75%{
+    background-image: url(./asstes/3.jpg);
+    
+    } 
+/*
+    100%{
+      background-image: url(./asstes/1.jpg);
+
+    } */
+  }
+
+  /* media - query - mobile , tablet*/
+  /*  mobile  */
+@media only screen and  (min-width : 360px) and (max-width: 740px) {
+   
+  .header{
+    width: 430px;
+    
+  }
+  .navigation{
+    gap: 6%;
+  }
+ 
+
+  .search-box input {
+    width: 90px;
+    height: 20px;
+  }
+
+  .input-group-btn button {
+    width: 20px;
+    height: 20px;
+  }
+
+
+  .logo img{
+    height: 50px;
+    width: 80px;
+  }
+  
+  
+  .maindiv{
+          width: 430px;
+          height: 20vh;
+          margin-top: 28%;
+       }
+
+   .newspaper-collection{
+    display: grid;
+    /* gap: 7%; */
+    /* margin-top: 2%; */
+   }
+
+
+   .newspaper-heading{
+    margin-top: 100%;
+    margin-left: 10%;
+    font-size: 20px;
+   }    
+   
+
+   .newspaper-1 img{
+    margin-bottom: 80%;
+    padding-top: 2%;
+    margin-left: 40%;
+    height: 30vh;
+    width: 50%;
+    position: absolute;
+   }
+   .newspaper-1 h1 {
+    margin-top: 60%;
+    margin-left: 3%;
+     padding-right: 100%;
+     padding-top: 0%;
+   }
+   .newspaper-1 button {
+    margin-top: 30%;
+    margin-left:2%;
+    /* padding-right: 500px; */
+
+
+   }
+
+   .newspaper-2 img{
+    margin-bottom: 100%;
+    margin-left: 30%;
+    height: 30vh;
+    width: 50%;
+    position: absolute;
+
+   }
+
+   .newspaper-2 h1 {
+    margin-left: 30%;
+   }
+   
+   .newspaper-3 img{
+    margin-bottom: 50%;
+    margin-left: 30%;
+    height: 30vh;
+    width: 50%;
+    position: absolute;
+   }
+    .newspaper-4 img{
+    margin-bottom: 50%;
+    margin-left: 30%;
+    height: 30vh;
+    width: 50%;
+    position: absolute;
+
+    }
+
+  .action-advanture-collection{
+    display: grid;
+  }
+  
+  .financial-heading h3{
+    font-size: 50px;
+    margin-top: 350px;
+  }
+
+  .financial-heading a {
+    margin-left: 10%;
+    /* margin-bottom: 50%; */
+    padding-top: 500px;
+  }
+
+  .action-1 img {
+    height: 30vh;
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 40%;
+  }
+
+  .action-2 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 20%;
+  }
+
+  .action-3 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 20%;
+  }
+
+  .action-4 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 40%;
+    margin-left: 20%;
+  }
+ 
+  .history-and-biopics{
+    display: grid;
+  }
+
+  .history-1 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+
+  .history-2 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+
+  .history-3 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+
+  .history-4 img{
+    height: 30vh;
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+
+  .Spiritual-Books{
+    display: grid;
+  }
+
+  .Spiritual-1 img {
+    height: 30vh;
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+
+  .Spiritual-2 img {
+    height: 30vh;
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+
+  .Spiritual-3 img {
+    height: 30vh;
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+
+  .Spiritual-4 img {
+    height: 30vh;
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 40%;
+  }
+
+  .spritual-books-heading h3{
+    font-size: 40px;
+  }
+
+  .footer{
+  margin-top:400px;
+  width: 100%;
+  margin-right: 50%;
+  padding-left: 180px  ; 
+  background:#333;
+  color: #efefef;
+  display: flex;
+  /* gap: 70%;  */
+}
+
+.footer-2{
+  background-color: #333;
+     padding: 100px;
+    padding-left: 180-px;
+  
+}
+
+.col-1 a{
+  display: none;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:10px ;
+  margin-left: 20%;
+}
+
+.col-2 a{
+  /* display: block; */
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom:10px ;
+  /* margin-left: 100%; */
+}
+
+
+.selling-newspaper .image{
+  background-image: url(./asstes/blue\ bgi.jpg);
+  background-size: cover;
+    /* display: block; */
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 30%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 10%;
+
+ }
+ 
+ .Left-side{
+  margin-left: 7%;
+  margin-top: 9%;
+ }
+ .Left-side  .left-side-h1{
+  font-size: 40px;
+  margin-left: 20%;
+ }
+
+ .right-side{
+  margin-left: 3%;
+  margin-top: 8%;
+  display: none;
+ }
+
+ }
+
+ .selling-newspaper .image{
+  background-image: url(./asstes/blue\ bgi.jpg);
+  background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 10%;
+
+ }
+ 
+ .Left-side{
+  margin-left: 10%;
+  margin-top: 9%;
+ }
+
+ .right-side{
+  margin-left: 3%;
+  margin-top: 8%;
+ }
+
+ 
+ 
+
+  
+</style>
+
+<!-- notification -->
+<link rel="stylesheet" href="./style/notification.css">
+
+</head>
+<body >
+
+  
+    
+    <!-- header  -->
+    <header >
+        <nav class="header">
+            <!-- logo -->
+            <div class="logo">
+              
+                <!-- <img src="./asstes/logo2-removebg5.png" height="50px"  width="90px" > -->
+                <img src="./asstes/logo-cu library.png" height="100px"  width="150px" style="margin-top: 20%; margin-left: 0; "  >
+                
+                
+            </div>
+
+            <!-- search-box -->
+
+            <form >
+
+              <div  class="search-box ">
+                
+                <input type="text"   placeholder="search e-books " size="40" class="text">
+                  <div class="input-group-btn" >
+                    <button class="btn" type="submit" >
+                      
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button> 
+
+
+                  </div>
+              </div>
+
+            </form>
+
+            <!-- navigation -->
+
+            <ul class="navigation">
+                <li >
+                  <a href="./index.html">
+                  <i class="fa-solid fa-house fa-2x" class="home" title="home"></i>
+                </a>
+                </li>
+
+                <li>
+                 <a href="./login-form.html">
+                  <i class="fa-solid fa-user fa-2x" title="Create Account" ></i>
+                 </a>
+                </li>
+               <!-- no use  -->
+                <!-- <li>
+                  <a href="#" id="shop-card-1">
+                  <h5>coming soon </h5>
+                </a>
+                </li> -->
+                <!-- <li>
+                  <a href="./profiel-card.html" target="_blank">
+                  <i class="fa-solid fa-blog fa-2x "  class="blog" title="blog"></i>
+                </a>
+                </li> -->
+                <!-- no use  -->
+                <!-- <li class=" cart-box">
+                  <a href="./AddProduct.html" target="_blank">
+                  <i class="fa-solid fa-cart-shopping fa-2x" class="cart-icon" title="add product"></i>
+                </a>
+                </li> -->
+                
+                <li>
+                  <a href="https://chat.whatsapp.com/HOfZ4jJ1bNIL2BdvMjmWhF"  class="whatsup">
+                  <i class="fa-brands fa-square-whatsapp  fa-2x"  title="whatsup group"></i>
+                </a>
+                </li>
+
+                <li>
+                  <a href="./animi.html" id="shop-card-1">
+                  <h5 style="color: white;">coming soon </h5>
+                </a>
+                </li>
+
+                <!-- <li>
+                  <a href="./demo-page.html" >
+                    <img src="./asstes/demo1.png" height="80px" width="80px">
+                  </a>
+                </li> -->
+            </ul>
+        </nav>
+                 
+                
+
+
+
+
+
+
+
+
+    </header>
+
+     
+
+<!-- Main-poster -->
+  <div class =" maindiv" style="color:white; font-size: 50px; text-align: center;  ">
+   <!-- <h3 style="margin-top: 4%;"> lots of e-book and newspaper 100% free </h3 style="margin-top: 4%;"> -->
+  </div>
+ 
+  
+ 
+ </main>
+
+ <!-- collection-books -->
+
+ <!-- newspaper -->
+  <!-- <div class="newspaper"> -->
+
+   <!-- <div class="newspaper-heading">
+     <h3>NEWSPAPER</h3> 
+     <a href="./newspaper-view-all.html" style="font-size: 35px; margin-top: 2%;">(view all)</a> 
+    </div> -->
+    
+    <!-- <div class="newspaper-collection">
+      <div class="newspaper-1">
+       <img src="./asstes/news-24 april.png"  >
+       <h1 style="font-size: 20px; margin-top: 300px; margin-left: 300px;" >04 April 2023</h1>
+        <div style="display: flex; gap: 2%;">
+
+          <p style="margin-left: 70%;"><button><a href="./book pdf/e-paper/th.th_delhi.24_04_2023.pdf">Download</a></button></p>
+          <p style="margin-left: 70%; margin-top: 3%;"><button><a href="https://drive.google.com/file/d/1itqTxdKud0HEGrbpShhShmrSSvWW5daW/view?usp=share_link">Preview</a></button></p>
+
+        </div>
+       </div>
+       
+
+      <div class="newspaper-2">
+        <img src="./asstes/new-23-april.png" >
+        <h1 style="font-size: 20px; margin-top:300px ; margin-left: 50px;" >03 April 2023</h1>
+        <p style="margin-left: 20%;"><button><a href="./book pdf/e-paper/th.th_delhi.23_04_2023.pdf">Download</a></button></p>
+        <p style="margin-left: 20%; margin-top: 3%;"><button><a href="https://drive.google.com/file/d/11yx7Y_MPJ-odX4dPiS5VLcyxKTTTSlIg/view?usp=share_link">Preview</a></button></p>
+
+
+      </div>
+
+      <div class="newspaper-3">
+       <img src="./asstes/news-april-22.png" alt="">
+       <h1 style="font-size: 20px; margin-top:300px ; margin-left: 50px;" >02 April 2023</h1>
+       <p  style="margin-left: 20%;" ><button ><a href="./book pdf/e-paper/THE HINDU.22_04_2023.pdf">Download</a></button></p>
+       <p style="margin-left: 20%; margin-top: 3%;"><button><a href="https://drive.google.com/file/d/1DNTYcL8Qk6ojsWd5Z5ACfX6gLWl2aisx/view?usp=share_link">Preview</a></button></p>
+
+      </div>
+
+      <div class="newspaper-4">
+      <img src="./asstes/news-21-april.png" alt="" >
+      <h1 style="font-size: 20px; margin-top:300px ; margin-left: 50px;" >01 April 2023</h1>
+      <p style="margin-left: 20%;"><button><a href="./book pdf/e-paper/th.th_delhi.21_04_2023.pdf">Download</a></button></p>
+      <p style="margin-left: 20%; margin-top: 3%;"><button><a href="https://drive.google.com/file/d/1kFrag8-tres36dvXX27Zzz01KKzymUc3/view?usp=share_link">Preview</a></button></p>
+
+
+      </div>
+
+      
+    </div> -->
+  <!-- </div>  -->
+ 
+
+    <!-- Financial Literacy -->
+     <div   style="margin-top: 400px; margin-left: 15%; font-size: 50px; display: flex;"  class="financial-heading">
+      <h3>Must read books in 20s</h3>  
+      <a href="./Financial-Literacy.html" style="font-size: 20px; margin-top: 2%; margin-left: 6%;">(view all)</a> 
+     </div>
+
+      <div class="action-advanture-collection">
+          
+        <div class="action-1">
+         <img src="./asstes/book-phychology.webp" alt="" >
+         <h1 style="font-size: 20px; margin-top:370px ; margin-left: 230px;" > The Psychology of Money </h1>
+         <p style="margin-left: 230px;"><button><a href="./book pdf/financial-literacy-book/physcology of money.pdf">Download</a></button></p>
+         <!-- <p style="margin-left: 300px; margin-top: 2%;"><button><a href="https://drive.google.com/file/d/1JK389p8NA_6CKlmAlJnAl0lQ-BhVN2kZ/view?usp=share_link">Preview</a></button></p> -->
+         
+
+        </div>
+
+        <div class="action-2">
+        <img src="./asstes/mone-rich-dad.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:370px ; margin-left: 50px;" >RICH DAD AND  POOR DAD</h1>
+        <p style="margin-left: 50px; "><button><a href="./book pdf/financial-literacy-book/Rich-Dad-Poor-Dad.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 210px; margin-top: 2%;"><button><a href="https://drive.google.com/file/d/139-3F5XiXyrUlyV7QD1QwKTs9GdW-jqh/view?usp=share_link">Preview</a></button></p> -->
+
+
+        </div>
+
+        <div class="action-3">
+       <img src="./asstes/book-think-grow.jpg" alt="">
+       <h1 style="font-size: 20px; margin-top:370px ; margin-left: 50px;" >Think and Grow Rich</h1>
+       <p style="margin-left: 50px;"><button><a href="./book pdf/financial-literacy-book/Think And Grow Rich ( PDFDrive ).pdf">Download</a></button></p>
+       <!-- <p style="margin-left: 210px; margin-top: 2%;"><button><a href="https://drive.google.com/file/d/1uoElvhUSG9_8W3EACoig25-yHKJRZg0e/view?usp=share_link">Preview</a></button></p> -->
+
+
+        </div>
+
+        <div class="action-4">
+        <img src="./asstes/book-your-money-life.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:370px ; margin-left: 70px;" >Your Money Or Your Life</h1>
+        <p style="margin-left: 70px;"><button><a href="./book pdf/financial-literacy-book/your money or your life.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 210px; margin-top: 2%;"><button><a href="https://drive.google.com/file/d/1LIqmEgqPmX3CUS08IC8EnBXnnvRh5DNN/view?usp=share_link">Preview</a></button></p> -->
+
+
+        </div>
+
+
+      </div>
+
+      <!-- newpaper SEELING ADDS  -->
+      <div class="selling-newspaper">
+       <div class=" image">
+         <!-- <img src="./asstes/blue bgi.jpg" height="60%"  width="100%"  style="margin-top: 10%;"> -->
+         <div class="Left-side">
+          <!-- <h1 style="font-size: 70px;">THE H****</h1> -->
+          <h1 style="font-size: 70px; color: #f7f0f0; line-height: 1.2em; " class="left-side-h1">
+            THE H****U <br> Memberships as <br> low as just <span style="color: yellow;">       &#8377;20</span> /month <br> & <span style="color: yellow;"> &#8377;200</span>/year
+           </h1>
+          <h5 style="color: hsl(0, 83%, 45%);">Note-Due to copywrite issue so we cannot content  provide here  <br> simply you can click on "JOIN US" we  provide you content on another plateform</h5>
+
+          <button style="width: 200px; height: 50px; margin-top: 8%; font-size: 30px; background-color: yellow; text-decoration: none; "><a href="https://chat.whatsapp.com/IycPZELIJKvLKQk6oS6kFL">JOIN US</a></button>
+
+         </div>
+
+         <div class="right-side">
+            <img src="./asstes/newspaper-layout-design.jpeg"  height="500px" width="400px">
+         </div>
+         
+
+        </div>
+       <!-- left side  -->
+
+       
+       <!-- right side  -->
+       <div>
+
+
+       </div>
+
+
+      </div>
+
+      <!-- Novels to Increase Your English Vocabulary -->
+
+      <div style="margin-top: 100px;  margin-left: 15%; font-size:40px">
+        <h3>Novels to Increase Your English Vocabulary</h3>
+        <a href="./Novels-English .html" style="font-size: 20px; margin-top: 2%;">(view all)</a> 
+      </div>
+
+      <div class="history-and-biopics">
+       
+       <div class="history-1">
+        <img src="./asstes/Sita Warrior of Mithila_0000.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 300px;" >SITA </h1>
+        <p style="margin-left: 270px;"><button><a href="./book pdf/english speak/Sita Warrior of Mithila.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 300px; margin-top: 2%;"><button>Download</button></p> -->
+       </div>
+
+       <div class="history-2">
+        <img src="./asstes/book-game-of thrown.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 200px;" >Game of thrown</h1>
+        <p style="margin-left: 200px;"><button><a href="./book pdf/english speak/game- of thrown.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 250px; margin-top: 2%;"><button>Download</button></p> -->
+       </div>
+         
+       <div class="history-3">
+        <img src="./asstes/book-girl-room 105.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 140px;" >The Girl in Room 105 </h1>
+        <p style="margin-left: 140px;"><button><a href="./book pdf/english speak/girl room 105.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 180px; margin-top: 2%;"><button>Download</button></p> -->
+       </div>
+
+       <div class="history-4">
+        <img src="./asstes/Coraline.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 170px;" >Coraline</h1>
+        <p style="margin-left: 170px;"><button><a href="./book pdf/english speak/Coraline.epub">Download</a></button></p>
+        <!-- <p style="margin-left: 210px; margin-top: 2%;"><button>Download</button></p> -->
+       </div>
+
+
+
+
+
+
+      </div>
+
+      
+      <!-- Spiritual Books -->
+     <div style="margin-top: 180px; margin-left: 15%; font-size: 50px;  display: flex;"  class="spritual-books-heading">
+      <h3>Spiritual Books</h3> 
+      <a href="./spritual-books.html" style="font-size: 20px; margin-top: 2%; margin-left: 6%;">(view all)</a> 
+     </div>
+
+      <div class="  Spiritual-Books  "  >
+          
+        <div class="Spiritual-1">
+         <img src="./asstes/book mahabharat-2.jpg" alt="" >
+         <h1 style="font-size: 20px; margin-top:350px ; margin-left: 260px;" >Mahabharata
+          
+           </h1>
+         <p style="margin-left: 260px;"><button><a href="./book pdf/spritual book/Mahabharata Of Vyasa - HolyBooks.com ( PDFDrive ).pdf">Download</a></button></p>
+         <!-- <p style="margin-left: 300px; margin-top: 2%;"><button>Preview</button></p> -->
+         
+
+        </div>
+
+        <div class="Spiritual-2"  >
+        <img src="./asstes/book-ramayana.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 170px;" >Ramayana
+          
+          </h1>
+        <p style="margin-left: 170px; "><button><a href="./book pdf/spritual book/ramayana book.pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p> -->
+
+
+        </div>
+
+        <div class="Spiritual-3" >
+       <img src="./asstes/book-geeta.jpg" alt="">
+       <h1 style="font-size: 20px; margin-top:350px ; margin-left: 140px;" >Bhagavad Gita as it is</h1>
+       <p style="margin-left: 140px;"><button><a href="./book pdf/spritual book/Bhagavad_Gita_As_It_Is.pdf">Download</a></button></p>
+       <!-- <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p> -->
+
+
+        </div>
+
+        <div class="Spiritual-4"   >
+        <img src="./asstes/book-sadguru-death.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:350px ; margin-left: 60px;" >Death An Inside Story</h1>
+        <p style="margin-left: 70px;"><button><a href="./book pdf/spritual book/Death; An Inside Story - A Book for all Those who Shall die (Sadhguru).pdf">Download</a></button></p>
+        <!-- <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p> -->
+
+
+        </div>
+
+
+      </div>
+
+
+      <!--Read Anime Stories -->
+     <!-- <div style="margin-top: 180px; margin-left: 15%; font-size: 80px;">Read Anime Stories 
+      <a href="./action-adv-view-all.html" style="font-size: 35px; margin-top: 2%;">(view all)</a> 
+     </div>
+
+      <div class="action-advanture-collection">
+          
+        <div class="action-1">
+         <img src="./asstes/action-1.jpg" alt="" >
+         <h1 style="font-size: 20px; margin-top:400px ; margin-left: 300px;" >21 April 2023 </h1>
+         <p style="margin-left: 300px;"><button>Download</button></p>
+         <p style="margin-left: 300px; margin-top: 2%;"><button>Preview</button></p>
+         
+
+        </div>
+
+        <div class="action-2">
+        <img src="./asstes/action-2.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:400px ; margin-left: 210px;" >21 April 2023</h1>
+        <p style="margin-left: 210px; "><button>Download</button></p>
+        <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p>
+
+
+        </div>
+
+        <div class="action-3">
+       <img src="./asstes/action-3.jpg" alt="">
+       <h1 style="font-size: 20px; margin-top:400px ; margin-left: 210px;" >21 April 2023</h1>
+       <p style="margin-left: 210px;"><button>Download</button></p>
+       <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p>
+
+
+        </div>
+
+        <div class="action-4">
+        <img src="./asstes/action-4.jpg" alt="">
+        <h1 style="font-size: 20px; margin-top:400px ; margin-left: 210px;" >21 April 2023</h1>
+        <p style="margin-left: 210px;"><button>Download</button></p>
+        <p style="margin-left: 210px; margin-top: 2%;"><button>Preview</button></p>
+
+
+        </div> -->
+
+
+      </div>
+
+      
+    
+  <!-- footer -->
+    
+  
+   <!-- <h1 style="margin-top:400px ;">Social Media</h1>   -->
+  
+  <!-- <footer class="footer1" style="margin-bottom: 100px; ">
+    <div class="right-side"> -->
+  
+       <!-- <h4  class="follow-on-social-media">follow on social media </h4> -->
+     <!-- <ul  class="follow-social-media fa-2x">
+       <li>
+         <a href="#" class="twitter">
+     
+           <i class="fa-brands fa-twitter fa-2x"></i>
+         </a>
+       </li>
+       <li> -->
+         <!-- <a href="#" class="linkedin">
+     
+           <i class="fa-brands fa-linkedin fa-2x"></i>
+         </a>
+       </li>
+       <li> -->
+         <!-- <a href="https://instagram.com/cumart_atoz?igshid=YmMyMTA2M2Y="  class="instagram">
+     
+     
+           <i class="fa-brands fa-square-instagram fa-2x"></i>
+         </a>
+       </li> -->
+
+       <!-- <li>
+        <a href="https://t.me/cumartt" class="telegram">
+          <i class="fa-brands fa-telegram fa-2x"></i>
+        </a>
+       </li> -->
+     <!-- </ul> -->
+       
+     
+      <!-- <ul class="phone">
+     
+       <h4>contect no.</h4>
+         <li>
+           <a href="#">
+         
+             <i class="fa-solid fa-phone"> 6387287539</i>
+           </a>
+         </li>
+     
+       </ul> -->
+   <!-- </div> -->
+    
+   
+    
+    
+  <!-- </footer>  -->
+
+  <!-- footer -->
+  <div class="footer" >
+      <!-- <h4 style="margin-top: 30%; margin-left: 30%; border: white so;"> Created by RAJ</h4> -->
+    
+    
+    
+   
+      <div class="col-2" > 
+        <h3>follow social media</h3>
+          <a href="https://instagram.com/himanshu10974"> <i class="fa-brands fa-square-instagram fa-2x"></i></a>
+          <!-- <a href=""> <i class="fa-brands fa-twitter fa-2x"></i></a> -->
+          <!-- <a href=""><i class="fa-brands fa-telegram fa-2x"></i></a> -->
+          <a href="https://www.linkedin.com/in/r-aj-87aa44230/"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
+       </div>
+   
+   
+   
+   
+   
+   
+      <div  class="col-1" >
+      <h3 style="margin-right: 30%;">USEFUL LINK</h3>
+     <a href="">ABOUT</a>
+     <a href="https://whatsform.com/vfMMpf">FEEDBACK FORM</a>
+     <a href="https://chat.whatsapp.com/HOfZ4jJ1bNIL2BdvMjmWhF">CONTECT US</a>
+     
+
+     </div>
+
+     
+
+     
+
+
+  </div>
+
+  <div class="footer-2">
+  <h3 style="color: white;"> Created by Alpha Robot</h3>
+
+  </div>
+
+
+  <!-- notification -->
+  <div class="popup">
+    <button id="close">&times;</button>
+    <h2>This Is The Title</h2>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita distinctio fugiat alias iure qui, commodi minima magni ullam aliquam dignissimos?
+    </p>
+    <a href="#">Let's Go</a>
+</div>
+<!--Script-->
+<!-- <script src="./style/pop-up-notify.js"></script> -->
+
+
+ 
+
+   
+</body>
+</html>
