@@ -322,7 +322,7 @@ nav ul {
 
   .action-advanture-collection{
     display: flex;
-    gap: 0%;
+    gap: 3%;
   }
 
   .action-1 img{
@@ -629,7 +629,7 @@ nav ul {
 
 
 .footer{
-  margin-top:400px;
+  margin-top:320px;
   width: 100%;
   
   padding-left: 180px  ; 
