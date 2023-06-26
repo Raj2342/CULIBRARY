@@ -152,109 +152,7 @@ nav ul {
     opacity: 0.7;
   } */
 
-  .newspaper-4 button{
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-    .newspaper-4 button :hover{
-      opacity: 0.7;
-    }
-  
-  .newspaper-1 button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
 
-  .newspaper-1 button :hover{
-    opacity: 0.7;
-  }
-
-  .newspaper-2 button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  .newspaper-2 button :hover{
-    opacity: 0.7;
-  }
-
-  .newspaper-3 button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-
-  .newspaper-3 button :hover{
-    opacity: 0.7;
-  }
-
-
-
-  .newspaper-collection{
-    display: flex;
-    gap: 7%;
-    margin-top: 5%;
-    
-   
-  }
-
-  .newspaper-1 img{
-    margin-bottom: 50%;
-    margin-left: 15%;
-    height: 35%;
-    width: 15%;
-    position: absolute;
-  }
-
-  .newspaper-2 img{
-    margin-bottom: 30%;
-    margin-left: 0%;
-    height: 35%;
-    width: 15%;
-    position: absolute;
-  }
-
-  .newspaper-3 img{
-    margin-bottom: 30%;
-    margin-left: 0%;
-    height: 35%;
-    width: 15%;
-    position: absolute;
-  }
-
-   .newspaper-4 img{
-    margin-bottom: 30%;
-    margin-left: 0%;
-    height: 35%;
-    width: 15%;
-    position: absolute;
-  }
 
   .action-1 button{
     border: none;
@@ -356,6 +254,114 @@ nav ul {
     width: 15%;
     position: absolute;
   }
+
+
+  /* ece */
+  .Ece-book-collection{
+    display: flex;
+    gap: 3%;
+      
+  }
+
+  .ECE-1 img{
+    margin-top: 5%;
+    margin-left: 15%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .ECE-1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ECE-1 button :hover{
+    opacity: 0.7;
+  }
+
+  .ECE-2 img{
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .ECE-2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ECE-2 button :hover{
+    opacity: 0.7;
+  }
+
+  .ECE-3 img {
+    margin-top: 5%;
+    margin-left:2%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .ECE-3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ECE-3 button :hover{
+    opacity: 0.7;
+  }
+
+  .ECE-4 img {
+    margin-top: 5%;
+    margin-left: 4%;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+  }
+
+  .ECE-4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .ECE-4 button :hover{
+    opacity: 0.7;
+  }
+
+
+
+
 
   .history-and-biopics{
     display: flex;
