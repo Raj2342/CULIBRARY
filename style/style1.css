@@ -152,6 +152,38 @@ nav ul {
     opacity: 0.7;
   } */
 
+  
+.Recommended img{
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 10%;
+  width: 15%;
+  /* position: absolute; */
+}
+.Recommended button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  /* cursor: pointer; */
+  width: 30%;
+  font-size: 18px;
+  margin-left: -558px;
+}
+.Recommended h1{
+  margin-left: -577px;
+}
+.button-heading{
+  margin-left: 50%;
+  margin-top: 2%;
+}
+
+.Recommended button :hover{
+  opacity: 0.7;
+}
+
 
 
   .action-1 button{
